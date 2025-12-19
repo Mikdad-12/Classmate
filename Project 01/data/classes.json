@@ -1,0 +1,23 @@
+[
+    {
+        "subject": "Bangla",
+        "day": "Monday",
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "type": "Regular Class"
+    },
+    {
+        "subject": "English",
+        "day": "Tuesday",
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "type": "Extra Class"
+    },
+    {
+        "subject": "Computer",
+        "day": "Saturday",
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "type": "Extra Class"
+    }
+]
