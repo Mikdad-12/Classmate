@@ -3,7 +3,7 @@
 ## 📌 Project Description
 ClassMate is a simple **Python console-based application** developed for a **university Python course final exam** 🎓.  
 This project helps students manage their daily class routine by allowing them to **add, view, and delete classes** easily.  
-It demonstrates core Python concepts such as **modules, functions, file handling, and menu-driven programming** 🐍.
+It demonstrates core Python concepts such as **modules, functions, file handling and menu-driven programming** 🐍.
 
 ---
 
@@ -35,7 +35,7 @@ ClassMate/
 
 ## How to Run
 1. Clone the repository:
-   git clone https://github.com/your-username/ClassMate.git
+   git clone https://github.com/Mikdad-12/Classmate.git
 
 2. Open the project folder:
    cd ClassMate
@@ -58,8 +58,8 @@ After running the program, choose an option from the menu:
 ---
 
 ## 👨‍💻 Developers / Team Members 🤝
+- **Mikdad** – https://github.com/Mikdad-12
 - **Mahir** – https://github.com/mahircce  
-- **Mikdad** – https://github.com/Mikdad-13  
 - **Naim**
 
 ---
