@@ -1,12 +1,17 @@
 from modules.storage import load_classes
 from datetime import datetime
 
-def get_start_time(class_item):
-    return class_item["start_time"]
+
+def time_to_minutes(time_str):
+    h, m = time_str.split(":")
+    return int(h) * 60 + int(m)
+
+def get_start_minutes(class_item):
+    return time_to_minutes(class_item["start_time"])
 
 def view_todays_classes():
     classes = load_classes()
-    
+
     today_index = datetime.today().weekday()
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     today = days[today_index]
@@ -16,7 +21,7 @@ def view_todays_classes():
         if c["day"].lower() == today.lower():
             today_classes.append(c)
 
-    today_classes.sort(key=get_start_time)
+    today_classes.sort(key=get_start_minutes)
 
     if not today_classes:
         print(f"\nNo classes scheduled for today ({today})")
@@ -27,9 +32,10 @@ def view_todays_classes():
         print(f"{i}. {c['subject']} ({c['start_time']} - {c['end_time']}) [{c['type']}]")
 
 
+
 def view_tomorrows_classes():
     classes = load_classes()
-    
+
     today_index = datetime.today().weekday()
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     tomorrow_index = (today_index + 1) % 7
@@ -40,7 +46,7 @@ def view_tomorrows_classes():
         if c["day"].lower() == tomorrow.lower():
             tomorrow_classes.append(c)
 
-    tomorrow_classes.sort(key=get_start_time)
+    tomorrow_classes.sort(key=get_start_minutes)
 
     if not tomorrow_classes:
         print(f"\nNo classes scheduled for tomorrow ({tomorrow})")
