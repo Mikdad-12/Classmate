@@ -1,0 +1,30 @@
+[
+  { "subject": "CCE-2407", "day": "Saturday", "start_time": "11:30", "end_time": "12:20", "type": "Theory" },
+  { "subject": "CCE-2407", "day": "Saturday", "start_time": "12:20", "end_time": "13:10", "type": "Theory" },
+  { "subject": "MATH-2401", "day": "Saturday", "start_time": "13:50", "end_time": "14:40", "type": "Theory" },
+  { "subject": "STAT-2401", "day": "Saturday", "start_time": "14:40", "end_time": "15:30", "type": "Theory" },
+  { "subject": "STAT-2401", "day": "Saturday", "start_time": "15:30", "end_time": "16:20", "type": "Theory" },
+
+  { "subject": "CCE-2408", "day": "Sunday", "start_time": "10:40", "end_time": "11:30", "type": "Lab" },
+  { "subject": "CCE-2408", "day": "Sunday", "start_time": "11:30", "end_time": "12:20", "type": "Lab" },
+  { "subject": "CCE-2408", "day": "Sunday", "start_time": "12:20", "end_time": "13:10", "type": "Lab" },
+  { "subject": "GEBL-2401", "day": "Sunday", "start_time": "15:30", "end_time": "16:20", "type": "Theory" },
+
+  { "subject": "MATH-2401", "day": "Monday", "start_time": "10:40", "end_time": "11:30", "type": "Theory" },
+  { "subject": "MATH-2401", "day": "Monday", "start_time": "11:30", "end_time": "12:20", "type": "Theory" },
+  { "subject": "CCE-2411", "day": "Monday", "start_time": "12:20", "end_time": "13:10", "type": "Lab" },
+  { "subject": "CCE-2401", "day": "Monday", "start_time": "13:50", "end_time": "14:40", "type": "Theory" },
+  { "subject": "CCE-2401", "day": "Monday", "start_time": "14:40", "end_time": "15:30", "type": "Theory" },
+  { "subject": "CCE-2407", "day": "Monday", "start_time": "15:30", "end_time": "16:20", "type": "Theory" },
+
+  { "subject": "GEBL-2401", "day": "Tuesday", "start_time": "11:30", "end_time": "12:20", "type": "Theory" },
+  { "subject": "CCE-2412", "day": "Tuesday", "start_time": "13:50", "end_time": "14:40", "type": "Lab" },
+  { "subject": "CCE-2412", "day": "Tuesday", "start_time": "14:40", "end_time": "15:30", "type": "Lab" },
+  { "subject": "CCE-2412", "day": "Tuesday", "start_time": "15:30", "end_time": "16:20", "type": "Lab" },
+
+  { "subject": "CCE-2411", "day": "Wednesday", "start_time": "10:40", "end_time": "11:30", "type": "Theory" },
+  { "subject": "CCE-2411", "day": "Wednesday", "start_time": "11:30", "end_time": "12:20", "type": "Theory" },
+  { "subject": "CCE-2406", "day": "Wednesday", "start_time": "13:50", "end_time": "14:40", "type": "Theory" },
+  { "subject": "CCE-2406", "day": "Wednesday", "start_time": "14:40", "end_time": "15:30", "type": "Theory" },
+  { "subject": "CCE-2406", "day": "Wednesday", "start_time": "15:30", "end_time": "16:20", "type": "Theory" }
+]
