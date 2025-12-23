@@ -60,7 +60,7 @@ After running the program, choose an option from the menu:
 ## 👨‍💻 Developers / Team Members 🤝
 - **Mikdad** – https://github.com/Mikdad-12
 - **Mahir** – https://github.com/mahircce  
-- **Naim**
+- **Naim** - https://github.com/gmnaim67-byte
 
 ---
 
