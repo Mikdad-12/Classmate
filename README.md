@@ -57,6 +57,14 @@ After running the program, choose an option from the menu:
 
 ---
 
+## 📊 Project Presentation
+
+The project presentation is available at the following link:
+
+👉 [View Presentation on Canva](https://www.canva.com/design/DAG8PoOo9Ss/dKYQo4oFELXyLMORiFQm4A/view?utm_content=DAG8PoOo9Ss&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h79888fdb8f)
+
+---
+
 ## 👨‍💻 Developers / Team Members 🤝
 - **Mikdad** – https://github.com/Mikdad-12
 - **Mahir** – https://github.com/mahircce  
