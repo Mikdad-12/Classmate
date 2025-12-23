@@ -2,7 +2,7 @@
 
 ## 📌 Project Description
 ClassMate is a simple **Python console-based application** developed for a **university Python course final exam** 🎓.  
-This project helps students manage their daily class routine by allowing them to **add, view, and delete classes** easily.  
+This project helps students manage their daily class routine by allowing them to **add, view and delete classes** easily.  
 It demonstrates core Python concepts such as **modules, functions, file handling and menu-driven programming** 🐍.
 
 ---
