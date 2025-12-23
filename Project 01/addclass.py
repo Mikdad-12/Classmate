@@ -17,12 +17,13 @@ def add_new_class():
 
     day = get_valid_day()
     
-    start = input("Start Time(HH:MM): ")
-    end = input("End Time(HH:MM): ")
+    start = input("Start Time(HH:MM -24Hour): ")
+    end = input("End Time(HH:MM -24Hour): ")
 
     print("1. Regular Class")
     print("2. Extra Class")
-    print("3. CT/Exam")
+    print("3. Lab/Sessional")
+    print("4. CT/Exam")
 
     c = int(input("Choose Class Type (1-3): "))
 
@@ -32,6 +33,8 @@ def add_new_class():
         elif choice == 2:
             return "Extra Class"
         elif choice == 3:
+            return "Lab"
+        elif choice == 4:
             return "CT/Exam"
         else:
             return "Regular Class" 
